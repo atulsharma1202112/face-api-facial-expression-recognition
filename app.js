@@ -1,5 +1,5 @@
 (async () => {
-    await faceapi.nets.ssdMobilenetv1.loadFromUri('/models');
+    await faceapi.nets.ssdMobilenetv1.loadFromUri('https://github.com/atulsharma1202112/face-api-facial-expression-recognition/blob/main/models/ssd_mobilenetv1_model-weights_manifest.json');
     await faceapi.nets.faceLandmark68Net.loadFromUri('/models');
     await faceapi.nets.faceExpressionNet.loadFromUri('/models');
     
